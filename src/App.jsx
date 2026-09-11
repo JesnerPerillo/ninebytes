@@ -1,7 +1,8 @@
-import Navbar from "./components/Navbar";
+import Navbar from "./components/NavBar";
 import Hero from "./components/Hero";
 import Services from "./components/Services";
 import About from "./components/About";
+import VisionMission from "./components/VisionMission";
 import Projects from "./components/Projects";
 import Process from "./components/Process";
 import CTA from "./components/CTA";
@@ -16,6 +17,7 @@ function App() {
         <Hero />
         <Services />
         <About />
+        <VisionMission />
         <Projects />
         <Process />
         <CTA />

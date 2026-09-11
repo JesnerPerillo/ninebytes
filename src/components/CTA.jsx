@@ -6,11 +6,9 @@ function CTA() {
     >
       <div className="relative mx-auto max-w-7xl overflow-hidden rounded-[36px] bg-emerald-500 px-8 py-20 text-center shadow-[15px_15px_30px_var(--shadow-dark),-15px_-15px_30px_var(--shadow-light)] sm:px-16">
 
-        {/* Decorative circles */}
         <div className="absolute -left-20 -top-20 h-64 w-64 rounded-full bg-white/10" />
         <div className="absolute -bottom-32 -right-20 h-80 w-80 rounded-full bg-black/10" />
 
-        {/* Decorative glow */}
         <div className="absolute left-1/2 top-1/2 h-64 w-64 -translate-x-1/2 -translate-y-1/2 rounded-full bg-white/5 blur-3xl" />
 
         <div className="relative mx-auto max-w-3xl">

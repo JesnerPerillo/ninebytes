@@ -33,7 +33,6 @@ function Services() {
     >
       <div className="mx-auto max-w-7xl">
 
-        {/* Section heading */}
         <div className="max-w-2xl">
           <p className="mb-4 text-sm font-bold uppercase tracking-[0.2em] text-emerald-500">
             What we do
@@ -47,7 +46,6 @@ function Services() {
           </h2>
         </div>
 
-        {/* Service cards */}
         <div className="mt-14 grid gap-7 md:grid-cols-3">
           {services.map((service) => (
             <article
@@ -55,7 +53,6 @@ function Services() {
               className="group rounded-[28px] bg-[var(--surface)] p-7 shadow-[12px_12px_25px_var(--shadow-dark),-12px_-12px_25px_var(--shadow-light)] transition-all duration-300 hover:-translate-y-2"
             >
 
-              {/* Card header */}
               <div className="flex items-start justify-between">
 
                 <div className="flex h-14 w-14 items-center justify-center rounded-2xl bg-[var(--surface)] text-2xl text-emerald-500 shadow-[inset_5px_5px_10px_var(--shadow-dark),inset_-5px_-5px_10px_var(--shadow-light)]">
@@ -68,17 +65,14 @@ function Services() {
 
               </div>
 
-              {/* Title */}
               <h3 className="mt-8 text-2xl font-bold text-[var(--text)]">
                 {service.title}
               </h3>
 
-              {/* Description */}
               <p className="mt-4 text-sm leading-6 text-[var(--text-muted)]">
                 {service.description}
               </p>
 
-              {/* Tags */}
               <div className="mt-7 flex flex-wrap gap-2">
                 {service.tags.map((tag) => (
                   <span

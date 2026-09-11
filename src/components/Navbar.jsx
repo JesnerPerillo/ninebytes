@@ -20,7 +20,6 @@ function Navbar() {
     <header className="fixed left-0 right-0 top-0 z-50 px-4 pt-4">
       <nav className="mx-auto flex max-w-7xl items-center justify-between rounded-2xl border border-black/5 bg-[var(--surface)] px-5 py-3 transition-colors duration-300 dark:border-white/5">
 
-        {/* Logo */}
         <a href="#" className="group flex items-center gap-3">
 
           <div
@@ -46,7 +45,6 @@ function Navbar() {
 
         </a>
 
-        {/* Navigation */}
         <div className="hidden items-center gap-8 md:flex">
 
           <a
@@ -72,10 +70,8 @@ function Navbar() {
 
         </div>
 
-        {/* Right controls */}
         <div className="flex items-center gap-3">
 
-          {/* Theme toggle */}
           <button
             type="button"
             onClick={toggleTheme}
@@ -94,7 +90,6 @@ function Navbar() {
             {darkMode ? "☀" : "☾"}
           </button>
 
-          {/* CTA */}
           <a
             href="#contact"
             className="

@@ -15,10 +15,8 @@ function Footer() {
     >
       <div className="mx-auto w-full max-w-7xl border-t border-[var(--border)] pt-8 sm:pt-10">
 
-        {/* Main footer */}
         <div className="flex w-full flex-col items-center text-center lg:flex-row lg:items-center lg:justify-between lg:text-left">
 
-          {/* Brand */}
           <div className="flex flex-col items-center lg:items-start">
 
             <div className="flex items-center gap-3">
@@ -40,7 +38,6 @@ function Footer() {
             </p>
           </div>
 
-          {/* Social links */}
           <div className="mt-8 flex w-full items-center justify-center gap-8 text-sm text-[var(--text-muted)] sm:mt-10 lg:mt-0 lg:w-auto">
             <a
               href="#"
@@ -66,7 +63,6 @@ function Footer() {
 
         </div>
 
-        {/* Bottom */}
         <div className="mt-10 flex w-full flex-col items-center gap-3 border-t border-[var(--border)] pt-6 text-center text-xs text-[var(--text-muted)] sm:mt-12 sm:pt-7 lg:flex-row lg:justify-between lg:text-left">
 
           <p>
