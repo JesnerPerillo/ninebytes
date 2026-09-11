@@ -19,8 +19,7 @@ function Hero() {
           </h1>
 
           <p className="mt-7 max-w-xl text-base leading-7 text-[var(--text-muted)] sm:text-lg">
-            NineBytes helps ambitious businesses turn ideas into
-            beautiful, scalable, and meaningful digital products.
+            We turn ideas into meaningful digital products, with purpose in every byte.
           </p>
 
           <div className="mt-9 flex flex-col gap-4 sm:flex-row">
